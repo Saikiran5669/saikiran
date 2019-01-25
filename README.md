@@ -12,5 +12,7 @@ This repository helps in understanding various functionalities of git like clone
 1. Visual Studio Code: Visual Studio Code is a code editor that enable us to edit the cloned code.
 1. TortoiseGit: TortoiseGit is a Git revision control client. It help maintain the sync between local and cloud changes in the code.
 
-
-
+## Recommended resources:
+- [w3schools](https://www.w3schools.com/ "Source1")
+- [codecademy](https://www.codecademy.com/ "Source2")
+- [pluralsight](https://www.pluralsight.com/ "Source3")
