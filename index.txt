@@ -1,0 +1,13 @@
+I am currently a graduate student in Applied Computer Science. I joined in Spring 2019 and I am planning on graduating by Fall 2020.
+
+I am originally from India and completed my under graduation in Mechanical Engineering(not a well thought out decision). Later I have Joined Amazon as a Data Support Engineer for one of the Business Analytics team that majorly focuses on Last Mile(Delivery leg of a package). We analyse the reasons for certain anomalies in the Delivery leg and build products that will ease the Delivery process and improve the customer experience. We use SQL, R programming, Tableau.
+
+Since I am from a Non Computer Science background my current plan is to learn as much as possible and get a good hold on programming. As my current program is a blend of both Software Development and Data Analytics I would probably move into Data science after my graduation.
+
+My LinkedIn Profile :  https://www.linkedin.com/in/kiran-b-1a0226b3/
+
+My Github Profile : https://github.com/Saikiran5669
+
+My Bitbucket Profile : https://bitbucket.org/Saikiran5669/saikiran/src/master/
+
+Thank you all!
