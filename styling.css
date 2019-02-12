@@ -65,7 +65,6 @@ font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
 
 .flex-container {
     display: flex;
-    height: 3rem;
     flex-wrap: wrap;
     align-content: space-between;
     font-size: 1rem;
