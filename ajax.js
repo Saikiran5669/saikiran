@@ -5,6 +5,6 @@ function ajax() {
         document.getElementById(aja).innerHTML = this.responseText;
       }
     };
-    xhttp.open("GET", ajax.txt, true);
+    xhttp.open("GET", "ajax.txt", true);
     xhttp.send();
   }
