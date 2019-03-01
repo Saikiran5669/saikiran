@@ -14,6 +14,22 @@
 
   <link rel="stylesheet" href="styling.css">
 
+  <!-- JQuery -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <!-- Bootstrap tooltips -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.4/umd/popper.min.js"></script>
+  <!-- Bootstrap core JavaScript -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.2.1/js/bootstrap.min.js"></script>
+  <!-- MDB core JavaScript -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/mdbootstrap/4.7.3/js/mdb.min.js"></script>
+  <script src="https://code.jquery.com/qunit/qunit-2.9.1.js" integrity="sha256-eNccBdxd8zReziWcVjEsPeyJDi3LKMYnzMXyDv8bzsU="
+    crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.bundle.min.js" integrity="sha384-xrRywqdh3PHs8keKZN+8zzc5TX0GRTLCcmivcbNJWm2rs5C8PRhcEn3czEjhAO9o"
+    crossorigin="anonymous"></script>
+
+
+  <script src="ajax.js"></script>
+
   <title>Saikiran Reddy Baki</title>
 
 </head>
@@ -36,6 +52,9 @@
         <li class="nav-item">
           <a class="nav-link" href="calculation.html">Calculation</a>
         </li>
+        <li class="nav-item">
+          <a class="nav-link" href="Qunit.html">QUnit Test</a>
+        </li>
       </ul>
       <form class="form-inline mt-2 mt-md-0">
         <input class="form-control mr-sm-2" type="text" placeholder="Search" aria-label="Search">
@@ -43,28 +62,65 @@
       </form>
     </div>
   </nav>
-<br>
-<br>
-<br>
+  <br>
+  <br>
+  <br>
   <header class="container-fluid">
-      <hr />
-      <h1>Sum of N natural numbers</h1>
-      <hr />
+    <hr />
+    <h1>Sum of N natural numbers</h1>
+    <hr />
   </header>
 
-  <p class="para">
-   Number(N):
-  <input id="num" type="number" min="1" oninput="Sumof1toN(this.value)" onchange="Sumof1toN(this.value)"></p><br>
+  <section id="container">
 
-  <p class="para">Sum of 1 to N: <span id="sum1"></span></p>
-  <script>
-   function Sumof1toN(Value){
-    Value = parseInt(Value)
-    document.getElementById("sum1").innerHTML = (Value*(Value+1))/2;
-   }
-  </script>
-  </body>
-  </html>
- 
+    <p id="interact"></p>
+
+    <label class="input">Enter the number: </label>
+    <input id="num" class="form-control mr-sm-2" type="number" min="0" placeholder="Enter a natural number">
+    <br><br>
+    <button id="sumOfN" class="btn btn-primary">Click here!!</button>
+    <button id="clear" class="btn btn-primary">Clear Storage</button>
+    <br>
+    <p id="sum1"></p>
+    <script src="calscript.js"></script>
 
 
+
+  </section>
+
+  <article>
+    <section>
+      <div id="aja">
+        <h3>AJAX</h3>
+        <button type="button" onmouseover="ajax()">khulja sim sim</button>
+      </div>
+    </section>
+  </article>
+
+
+  <section>
+    <h3> JQuery Implementation</h3>
+
+    <p>You know nothing Jon Snow!!</p>
+
+    <button id="show" class="btn btn-primary">Show</button>
+    <button id="hide" class="btn btn-primary"> Hide </button>
+
+    <script>
+      $(document).ready(function () {
+        $("#hide").click(function () {
+          $("p").hide();
+        });
+        $("#show").click(function () {
+          $("p").show();
+        });
+      });
+    </script>
+  </section>
+
+  </article>
+
+
+</body>
+
+</html>
