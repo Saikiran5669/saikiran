@@ -27,6 +27,14 @@
   <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.bundle.min.js" integrity="sha384-xrRywqdh3PHs8keKZN+8zzc5TX0GRTLCcmivcbNJWm2rs5C8PRhcEn3czEjhAO9o"
     crossorigin="anonymous"></script>
 
+     <!-- Bootstrap CSS -->
+     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+     <!--new font -->
+     <link href="https://fonts.googleapis.com/css?family=Dancing+Script" rel="stylesheet">
+     <!--All my styles are in this stylesheet -->
+     <link href="nikhilstyle.css" rel="stylesheet" >
+     <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+  
 
   <script src="./ajax.js"></script>
 
@@ -88,17 +96,36 @@
 
   </section>
 
-  <article>
+  <!-- <article>
     <section>
       <div id="aja">
         <h3>AJAX</h3>
         <button type="button" onmouseover="ajax()">khulja sim sim</button>
       </div>
     </section>
-  </article>
+  </article> -->
 
+</section>
 
+<section>
   
+<div id="ajax_demo">
+    <h2>Ajax</h2>
+    <button type="button" class="btn btn-primary" onclick="ajax_example()">Change Content</button>
+    </div>
+</section>
+
+<script>
+$("#ajax_demo").mouseover(function(){
+ajax_example();
+});
+</script>
+
+
+<script src = "./ajax.js"></script>
+
+
+
   <section>
     <h3> JQuery Implementation</h3>
 
